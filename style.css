@@ -1,0 +1,128 @@
+body {
+  width: 50%;
+  margin: auto;
+  background-color: rgb(214, 214, 214);
+}
+.fame1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(87, 87, 87);
+}
+.fame1 #logo {
+  padding: 10px;
+}
+.fame1 #logo img {
+  height: 100px;
+  border-radius: 20px;
+  width: 100%;
+}
+.fame1 .tim-kiem {
+  display: flex;
+  justify-content: center;
+}
+.fame1 .tim-kiem #group_tim-kiem {
+  display: flex;
+  margin-block: 50px;
+  margin-right: 90px;
+}
+.fame1 .tim-kiem #group_tim-kiem input {
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 0px;
+  width: 300px;
+  height: 30px;
+}
+.fame1 .tim-kiem #group_tim-kiem button {
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 0px;
+}
+.fame2 {
+  background-color: rgb(162, 162, 162);
+  display: flex;
+}
+.fame2 a {
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-inline: 20px;
+  padding-block: 10px;
+  transition: all 0.4s;
+  color: white;
+}
+.fame2 a:hover {
+  background-color: aqua;
+  color: blue;
+}
+.fame3 {
+  overflow: hidden;
+  background-image: url(../../../IMG/1.webp);
+  background-position: center bottom;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fame4 {
+  display: flex;
+}
+.fame4 #group1 {
+  background-color: white;
+  padding: 20px;
+  width: 80%;
+}
+.fame4 #group1 h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.fame4 #group1 p {
+  margin-top: 5px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.fame4 #group2 {
+  background-color: beige;
+  width: 20%;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.fame4 #group2 #list1 a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.fame5 {
+  display: flex;
+  background-color: rgb(244, 244, 244);
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.fame5 .group {
+  padding: 10px;
+}
+.fame5 .group h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.fame5 .group .list2 {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.fame5 .group #list2 {
+  font-size: 12px;
+  font-style: italic;
+}
+.fame6 {
+  background-color: rgb(114, 114, 114);
+  justify-items: center;
+  margin: 0px;
+}
+
+.fame6 #banquyen {
+  color: white;
+  padding: 20px 0px;
+  margin: 0px;
+}
