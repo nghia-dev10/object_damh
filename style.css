@@ -53,7 +53,7 @@ body {
 }
 .fame3 {
   overflow: hidden;
-  background-image: url(../../../IMG/1.webp);
+  background-image: url(./1.webp);
   background-position: center bottom;
   height: 300px;
   width: 100%;
